@@ -1,7 +1,7 @@
 Quiz-10
 What is your name?
+John Doe
 
-Moses Peris
 What is Maven?
 
 
@@ -19,10 +19,9 @@ Build tools are programs that automate the creation of executable applications f
 
 
 What is the difference between Ant and Maven?
-
 Ant doesn't has formal conventions, so we need to provide information of the project structure in build.xml file.Ant is procedural, you need to provide information about what to do and when to do through code. You need to provide order.There is no life cycle in Ant.It is a tool box.Maven has a convention to place source code, compiled code etc. So we don't need to provide information about the project structure in pom.xml file.Maven is declarative, everything you define in the pom.xml file.There is life cycle in Maven.It is a framework.
-What is Archetype?
 
+What is Archetype?
  Archetype is a Maven project templating toolkit. An archetype is defined as an original pattern or model from which all other things of the same kind are made. The name fits as we are trying to provide a system that provides a consistent means of generating Maven projects
 What is POM in Maven?
 
