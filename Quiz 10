@@ -1,0 +1,101 @@
+Quiz-10
+What is your name?
+
+Moses Peris
+What is Maven?
+
+
+Quiz-10
+Maven is a build automation tool used primarily for Java projects. Maven addresses two aspects of building software: first, it describes how software is built, and second, it describes its dependencies.
+What are the Advantages of using Maven?
+
+Maven projects do not need to store third-party binary libraries in source control, which reduces undue stress on developer checkouts and builds. With Maven, you can add a new dependency quickly. Modern IDEs such as Eclipse allow you to do so without manually editing a project's pom.xml.
+What is the Life Cycle/Build Phases of Maven and outline/define all of them?
+
+Maven is based around the central concept of a build lifecycle. What this means is that the process for building and distributing a particular artifact (project) is clearly defined.There are three built-in build lifecycles: default, clean and site. The default lifecycle handles your project deployment, the clean lifecycle handles project cleaning, while the site lifecycle handles the creation of your project's site documentation.
+What does the build tools?
+
+Build tools are programs that automate the creation of executable applications from source code(eg. .apk for android app). Building incorporates compiling,linking and packaging the code into a usable or executable form.
+
+
+What is the difference between Ant and Maven?
+
+Ant doesn't has formal conventions, so we need to provide information of the project structure in build.xml file.Ant is procedural, you need to provide information about what to do and when to do through code. You need to provide order.There is no life cycle in Ant.It is a tool box.Maven has a convention to place source code, compiled code etc. So we don't need to provide information about the project structure in pom.xml file.Maven is declarative, everything you define in the pom.xml file.There is life cycle in Maven.It is a framework.
+What is Archetype?
+
+ Archetype is a Maven project templating toolkit. An archetype is defined as an original pattern or model from which all other things of the same kind are made. The name fits as we are trying to provide a system that provides a consistent means of generating Maven projects
+What is POM in Maven?
+
+A Project Object Model or POM is the fundamental unit of work in Maven. It is an XML file that contains information about the project and configuration details used by Maven to build the project. It contains default values for most projects.
+What is Repository in Maven and out line all of them?
+
+A repository in Maven is used to hold build artifacts and dependencies of varying types. There are strictly only two types of repositories: local and remote. The local repository refers to a copy on your own installation that is a cache of the remote downloads, and also contains the temporary build artifacts that you have not yet released.
+
+
+What is Dependency Management in Maven?
+
+There is not much difficulty in managing dependencies for a single a project, but when you start getting into dealing with multi-module projects and applications that consist of tens or hundreds of modules this is where Maven can help you a great deal in maintaining a high degree of control and stability.
+What is groupId, artifactId and version in Maven?
+
+That is, if the current project is a multiple module project, it should append a new identifier to the parent's groupId. eg. org.apache.maven, org.apache.maven.plugins, org.apache.maven.reporting. artifactId is the name of the jar without version.
+What is HTML and what is the use of HTML Tag?
+
+The <html> tag tells the browser that this is an HTML document. The <html> tag represents the root of an HTML document. The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
+What is HTML Attributes and why web use it? name some of them with description.
+
+An HTML attribute is a modifier of an HTML element type. An attribute either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them. In HTML syntax, an attribute is added to an HTML start tag.
+What is the use of tag <a> ?
+
+An official tag is a keyword adopted by events and conferences for participants to use in their web publications, such as blog entries, photos of the event, and presentation slides. Search engines can then index them to make relevant materials related to the event searchable in a uniform way.
+What is tag <div> ?
+
+Definition and Usage. The <div> tag defines a division or a section in an HTML document. The <div> tag is used to group block-elements to format them with CSS.
+What is the use of <script> ?
+
+Scripts are invisible to the visitor's eye but their availability within the code of a website defines how the website behaves in response to certain click requests sent by the user. Apart from the World Wide Web, scripts are also used for the automation of processes on a local computer. All in all, scripts have contributed a lot to making the web such a usable and flexibility driven environment as we are used to seeing it today.
+What is <form> ?
+
+A webform, web form or HTML form on a web page allows a user to enter data that is sent to a server for processing. Forms can resemble paper or database forms because web users fill out the forms using checkboxes, radio buttons, or text fields.
+What is <li> ?
+
+The HTML <li> element is used to represent an item in a list. It must be contained in a parent element: an ordered list ( <ol> ), an unordered list ( <ul> ), or a menu ( <menu> ). In menus and unordered lists, list items are usually displayed using bullet points.
+What is <select> ?
+
+The <select> element is used to create a drop-down list.
+What is <input> ?
+
+The <input> tag specifies an input field where the user can enter data.
+<input> elements are used within a <form> element to declare input controls that allow users to input data. An input field can vary in many ways, depending on the type attribute.
+What is <td> ?
+
+The <td> tag defines a standard cell in an HTML table.
+
+
+What is <tr> ?
+
+The <tr> tag defines a row in an HTML table.
+What is <iframe> ?
+
+The <iframe> tag specifies an inline frame.
+
+
+What is CSS? and the use of it?
+
+CSS is a language that describes the style of an HTML document.
+
+CSS describes how HTML elements should be displayed.
+
+What are different ways to apply styles to a Web page?
+
+Incline CSS, Embedded CSS, Linked CSS, Imported CSS
+What is a class in CSS?
+
+A web designer might want to assign different styles to the same tags. For this reason, the CSS specifications introduced the concept of classes.
+What is an Id selector?
+
+ The id selector uses the id attribute of an HTML element to select a specific element. The id of an element should be unique within a page, so the id selector is used to select one unique element! To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+What is the difference between an Id selector and Class?
+
+A class selector is a name preceded by a full stop (“.”) and an ID selector is a name preceded by a hash character (“#”). The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.
+SUBMIT
+
